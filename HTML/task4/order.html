@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Rubik" rel="stylesheet">
+    <title>奶茶点餐页面</title>
+  </head>
+  <body>
+    <section id="overlay">
+
+      <p id="logo">Order your milktea!</p>
+      <hr>
+      <!--在这里进行您的代码编写-->
+      <form action="submission.html" method="post">
+        <label>你想要什么口味的奶茶？
+          <input type="text" name="flavor" required minlength="2" maxlength="10">
+        </label>
+        <hr>
+
+        <label>你想要几杯？
+          <input type="number" name="cup" required min="1" max="4">
+        </label>
+        <hr>
+
+        <label for="sugar">你需要的糖分量</label>
+        <br>
+        <span>无糖</span>
+        <input type="range" min="0" max="5" id="sugar" name="sugar">
+        <span>全糖</span>
+        <hr>
+
+        <label>你想要什么顶料？</label>
+        <br>
+        <label>
+          <input type="checkbox" name="ice cream">冰淇淋
+        </label>
+        <label>
+          <input type="checkbox" name="milk cover">奶盖
+        </label>
+        <label>
+          <input type="checkbox" name="cocoa">可可粉
+        </label>
+        <hr>
+
+        <label>你需要加冰吗？</label>
+        <br>
+        <label>
+          <input type="radio" name="ice" value="yes">Yes
+        </label>
+        <label>
+          <input type="radio" name="ice" value="no">No
+        </label>
+        <hr>
+
+        <label>你需要加什么料</label>
+        <select>
+          <option>珍珠</option>
+          <option>波霸</option>
+          <option>布丁</option>
+        </select>
+        <hr>
+
+        <label>你要什么规格</label>
+        <select>
+          <option>小杯</option>
+          <option>中杯</option>
+          <option>大杯</option>
+        </select>
+        <hr>
+
+        <label for="request">您还有别的什么要求吗</label>
+        <br>
+        <textarea name="request" id="request" cols="50" rows="3"></textarea>
+        <hr>
+
+        <label>您的联系方式
+          <input type="tel" pattern="1[0-9]{10}">
+        </label>
+        <hr>
+
+        <input type="submit" value="Submit">
+      </form>
+    </section>
+  </body>
+</html>
