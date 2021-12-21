@@ -1,0 +1,57 @@
+.card {
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  width: 500px;
+  padding: 50px;
+  margin: 50px auto;
+  background-color: #fff;
+  border:solid #ddd;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 32px;
+  padding: 15px;
+  margin: 0px;
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 300;
+  color: #aaa;
+  line-height: 16px;
+  padding: 5px;
+  margin: 0px;
+}
+
+hr {
+  width: 200px;
+  margin: 30px auto;
+  border: 1px solid;
+  color: #ddd;
+}
+
+p {
+  font-weight: 500;
+  line-height: 32px;
+}
+
+ul {
+  font-weight: 500;
+  line-height: 28px;
+}
+
+li {
+  border: 1px solid #eee;
+  padding: 5px;
+}
+
+a {
+  color: #aaa;
+}
