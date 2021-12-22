@@ -1,0 +1,44 @@
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  width: 200px;
+  height: 200px;
+  margin: 5px;
+  box-sizing: border-box;
+}
+
+#box1 {
+  display: inline;
+  border: 5px solid aquamarine;
+}
+
+#box2 {
+  border: 5px double aquamarine;
+}
+
+#box3 {
+  border: 5px dashed aquamarine;
+}
+
+#box4 {
+  border: 5px dotted aquamarine;
+}
+
+#box5 {
+  border: 20px groove aquamarine;
+}
+
+#box6 {
+  border: 20px ridge aquamarine;
+}
+
+#box7 {
+  border: 20px inset aquamarine;
+}
+
+#box8 {
+  border: 20px outset aquamarine;
+}
