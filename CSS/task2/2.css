@@ -1,0 +1,55 @@
+p {
+  text-align: center;
+  width: 400px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid;
+}
+
+#overline {
+  text-decoration: overline;
+}
+
+#lineThrough {
+  text-decoration: line-through;
+}
+
+#underline {
+  text-decoration: underline;
+}
+
+a {
+  text-decoration: none;
+}
+
+#ls {
+  letter-spacing: 10px;
+}
+
+#bold {
+  font-weight: bold;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#sc {
+  font-variant: small-caps;
+}
+
+#size {
+  font-size: 20px;
+}
+
+#right {
+  text-align: right;
+}
+
+#em {
+  font-size: 2em;
+}
+
+#tab {
+  text-indent: 2em;
+}
