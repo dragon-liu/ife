@@ -1,0 +1,81 @@
+body {
+  font-family: "Comic Sans MS", Georgia, 'Times New Roman', Times, serif;
+}
+
+/* 背景颜色 */
+.grey {
+  background-color: #eee;
+}
+
+.white {
+  background-color: #fff;
+}
+
+/* 导航部分 */
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  justify-content: space-around;
+  width: 600px;
+  height: 3em;
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* 主体部分 */
+section {
+  text-align: center;
+  padding: 5px; 
+}
+
+h2 {
+  color: rgba(255, 99, 71, 0.5);
+}
+
+p {
+  line-height: 1.5;
+}
+
+#tel {
+  text-decoration: line-through;
+}
+
+#email {
+  text-decoration: underline;
+}
+
+#transform {
+  text-transform: capitalize;
+}
+
+#italic {
+  font-style: italic;
+}
+
+#space {
+  letter-spacing: 1px;
+  word-spacing: 4px;
+}
+
+#variant {
+  font-variant: small-caps;
+}
+
+ul {
+  padding: 0px; /*浏览器代理样式表对ul设置了padding-left为40px*/
+}
+
+#skills {
+  list-style: none;
+}
+
+
+
