@@ -1,0 +1,26 @@
+/* 使用伪类选择器，给表格设置单行背景色为#eee，双号数行为背景色为白色 */
+tr:nth-child(2n+1) {
+  background-color: #eee;
+}
+
+tr:nth-child(2n) {
+  background-color: white;
+}
+
+/* 选中所有标题栏，设置背景颜色为黑色，字体为白色 */
+th {
+  background-color: black;
+  color: white;
+}
+
+/* 应用伪类选择器，选中第一列单元格，设置背景颜色为黑色，字体为白色，粗体。 */
+tbody tr td:first-of-type {
+  background-color: black;
+  color: white;
+  font-weight: bold;
+}
+
+/* 应用伪类选择器，选中倍数为3的单元格，设置透明度为0.9 */
+td:nth-of-type(3n) {
+  color: rgba(0, 0, 0, 0.9);
+}
