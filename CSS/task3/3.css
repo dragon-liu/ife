@@ -1,0 +1,23 @@
+/* 使链接为红色，被访问后变为绿色，当被hover时，移除链接文本的下划线 */
+a:link {
+  color: red;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/* 应用属性选择器选中链接 href值中包含 contact 字段的 a 标签,设置下划线为粉红色 */
+a[href*="contact"] {
+  text-decoration-color: pink;
+}
+
+/* 应用属性选择器选中链接 href值中包含 以http字段开头的 a 标签,设置边框为蓝色 */
+a[href^="http"] {
+  border: 1px solid blue;
+}
+
