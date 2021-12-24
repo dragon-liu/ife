@@ -1,0 +1,51 @@
+#content {
+  width: 600px;
+  margin: 0 auto;
+  border: 1px solid;
+  padding: 20px;
+
+  text-align: center;
+}
+
+div div {
+  display: inline-block;
+  margin-right: 20px;
+  text-transform: uppercase;
+  color: white;
+}
+
+/* 纯CSS实现圆形 */
+#content div:first-of-type {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* 圆角使得background为圆形 */
+
+  line-height: 150px; /* 文字垂直居中 */
+
+  background-color: #00bfff;
+}
+
+/* 纯CSS实现三角形 */
+#content div:nth-of-type(2) {
+  width: 0;
+  height: 0;
+  border-top: 75px solid red;
+  border-right: 75px solid yellow;
+  border-bottom: 75px solid green;
+  border-left: 75px solid blue;
+
+  line-height: 0;
+}
+
+/* 纯CSS实现圆环 */
+#content div:nth-of-type(3) {
+  width: 75px;
+  height: 75px;
+  border: 37.5px solid red;
+  border-radius: 50%;
+
+  line-height: 75px; /* 文字垂直居中 */
+
+  color: black;
+  background-color: white;
+}
