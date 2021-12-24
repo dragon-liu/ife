@@ -1,0 +1,125 @@
+li {
+  display: inline;
+}
+
+a {
+  padding: 0.5em 1.5em;
+  outline: none;
+  text-decoration: none;
+}
+
+/* 按钮一 */
+#button1 {
+  border: 1px solid #E5E8E8;
+  border-radius: 4px;
+  color: black;
+}
+
+#button1:link, #button1:visited, #button1:focus {
+  background: white;
+}
+
+#button1:hover {
+  background: #E5E8E8;
+}
+
+#button1:active {
+  background: #B2BABB;
+}
+
+/* 按钮二 */
+#button2 {
+  border-radius: 4px;
+  background-color: #EC7063;
+  color: white;
+}
+
+#button2:link, #button2:visited, #button2:focus {
+  background: #EC7063;
+}
+
+#button2:hover {
+  background: #E74C3C;
+}
+
+#button2:active {
+  background: #B03A2E;
+}
+
+/* 按钮三 */
+#button3 {
+  border-radius: 4px;
+  background-color: #85C1E9;
+  color: white;
+}
+
+#button3:link, #button3:visited, #button3:focus {
+  background: #85C1E9;
+}
+
+#button3:hover {
+  background: #3498DB;
+}
+
+#button3:active {
+  background: #1B4F72;
+}
+
+/* 按钮四 */
+#button4 {
+  border: 1px solid #76D7C4;
+  border-radius: 4px;
+  background-color: white;
+  color: #229954;
+}
+
+#button4:link, #button4:visited, #button4:focus {
+  background: white;
+}
+
+#button4:hover {
+  background: #76D7C4;
+}
+
+#button4:active {
+  background: #148F77;
+}
+
+/* 按钮五 */
+#button5 {
+  border: 1px solid #F7DC6F;
+  border-radius: 4px;
+  background-color: white;
+  color: #E67E22;
+}
+
+#button5:link, #button5:visited, #button5:focus {
+  background: white;
+}
+
+#button5:hover {
+  background: #F7DC6F;
+}
+
+#button5:active {
+  background: #D4AC0D;
+}
+
+/* 按钮六 */
+#button6 {
+  border-radius: 1em;
+  background-color: #52BE80;
+  color: white;
+}
+
+#button6:link, #button6:visited, #button6:focus {
+  background: #52BE80;
+}
+
+#button6:hover {
+  background: #27AE60;
+}
+
+#button6:active {
+  background: #1E8449;
+}
