@@ -1,0 +1,22 @@
+li {
+  display: inline; /* 让列表项内联排成一排，且列表项前面的符号会消失 */
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+}
+
+a:link,
+a:visited,
+a:focus {
+  color: blue;
+}
+
+a:active {
+  border-top: 1px solid grey;
+  border-right: 1px solid grey;
+  border-left: 1px solid grey;
+
+  color: grey;
+}
