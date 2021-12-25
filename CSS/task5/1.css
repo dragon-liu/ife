@@ -1,0 +1,14 @@
+p {
+  width: 400px;
+  margin: 0 auto;
+  background-color: blanchedalmond;
+}
+
+p::first-letter {
+  float: left; /* 浮动实现文字环绕效果 */
+  margin-right: 0.25em;
+  font-size: 4em;
+  font-weight: 700;
+  color: aqua;
+}
+
