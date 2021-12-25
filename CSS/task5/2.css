@@ -1,0 +1,15 @@
+article {
+  overflow: auto; /* 使文字不溢出 */
+  margin: 0 auto;
+  background-color: #eee;
+}
+
+div:first-child {
+  float: left; /* 让文字包裹图片 */
+  margin-right: 0.5em;
+}
+
+/* 清除浮动 */
+div:nth-child(2) {
+  clear: both;
+}
