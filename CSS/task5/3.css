@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+}
+
+header,
+div,
+footer {
+  background-color: red;
+}
+
+main {
+  overflow: hidden; /* float父元素创建BFC清除浮动，同时结合padding-bottom,margin-bottom实现三列等高布局 */
+  min-width: 600px;
+}
+
+div:nth-of-type(1) {
+  float: left;
+  width: 200px;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+
+div:nth-of-type(2) {
+  float: left;
+  width: calc(98% - 400px); /* 计算使得中间宽度自适应 */
+  margin: 0 1%;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+
+div:nth-of-type(3) {
+  float: right;
+  width: 200px;
+  padding-bottom: 9999px;
+  margin-bottom: -9999px;
+}
+
+/* clearfix清除浮动 */
+/* main::after {
+  content: "";
+  display: block;
+  clear: both;
+} */
